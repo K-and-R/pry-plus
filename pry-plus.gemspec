@@ -1,7 +1,15 @@
 # encoding: utf-8
+
+deps = ["pry-doc",
+ "pry-docmore",
+ "pry-byebug",
+ "pry-stack_explorer",
+ "pry-rescue",
+ "bond",
+ "jist"]
+
 require './lib/pry-plus'
 Gem::Specification.new do |s|
-  deps = YAML.load_file('in.yml').keys
   s.name          = 'pry-plus'
   s.version       = PryPlus::VERSION
   s.license       = 'CC0'
