@@ -18,7 +18,7 @@ pry-docmore:
     - "? $`"
   url: https://github.com/rking/pry-docmore/wiki
 
-pry-debugger:
+pry-byebug:
   commands: [ break, breakpoints, next, step, finish, continue ]
   desc: >-
     An essential gem. Turns Pry into a steppable debugger.
