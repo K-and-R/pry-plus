@@ -1,14 +1,15 @@
-pry-plus
-========
-
-Get up and going with a good set of pry tools right away.
-
 <%
   require 'cgi'
   def h unclean; CGI::escapeHTML unclean end
   require 'yaml'
   list = YAML.load_file 'in.yml'
 %>
+pry-plus
+========
+
+Get up and going with a good set of pry tools right away.
+
+Based on [RKing's pry-plus](https://github.com/rking/pry-plus). Updated with support for ruby 2.5 (requires Ruby version >= 2.3.0).
 
 Dependent Gems
 --------------
@@ -17,7 +18,6 @@ Dependent Gems
 ### [<%= name %>](<%= info['url'] %>)
 
 <%=h info['desc'] %>
-
 <% if info['use cases'] %>
   <% info['use cases'].each do |e| %>
 - <%=h e %>
