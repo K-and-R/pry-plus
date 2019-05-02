@@ -17,5 +17,9 @@ Gem::Specification.new do |s|
   s.files         = Dir['lib/*']
   s.executables   = Dir['bin/*'].map { |e| e.sub 'bin/', '' }
 
+  s.required_ruby_version = '>= 2.3.0'
+
   deps.each { |e| s.add_dependency e }
+
+  s.add_development_dependency 'rake'
 end

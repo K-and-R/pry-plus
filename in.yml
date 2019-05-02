@@ -21,12 +21,12 @@ pry-docmore:
 pry-byebug:
   commands: [ break, breakpoints, next, step, finish, continue ]
   desc: >-
-    An essential gem. Turns Pry into a steppable debugger.
+    An essential gem. Turns Pry into a steppable debugger. Ruby 2.5 compatible.
   use cases:
-    - Making the basic "require'pry';binding.pry" from a script come alive.
+    - Making the basic `require 'pry'; binding.pry` from a script come alive.
     - In conjunction with plymouth or pry-rescue, to explore failing tests.
     - Following calls into other libs.
-  url: https://github.com/banister/pry-debugger#readme
+  url: https://github.com/deivid-rodriguez/byebug#readme
 
 pry-stack_explorer:
   commands: [ show-stack, up, down, frame ]
