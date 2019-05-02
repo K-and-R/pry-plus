@@ -1,0 +1,8 @@
+.rubygems-proxy-url
+.rvmrc
+.ruby-version
+Gemfile.lock
+.DS_Store
+.yardoc
+doc
+*.gem
