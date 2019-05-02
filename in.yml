@@ -56,11 +56,3 @@ bond:
     - "`{asdf: 1, hjkl: 2}[:a<tab>`"
     - "`Chain.of.calls.`<tab> # Old pry completion was generic in this case."
   url: http://tagaholic.me/bond/
-
-jist:
-  commands: [ jist, 'enhanced gist' ]
-  desc: Replacement for the undermaintained `gist` gem.
-  use cases:
-    - Improved implementation for Pry's `gist` command.
-    - Check out the `jist -h` output on the CLI, by the way.
-  url: https://github.com/ConradIrwin/jist#readme
