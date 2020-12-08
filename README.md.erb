@@ -4,24 +4,32 @@
   require 'yaml'
   list = YAML.load_file 'in.yml'
 %>
-pry-plus
-========
+# pry-plus
 
 Get up and going with a good set of pry tools right away.
 
 Based on [RKing's pry-plus](https://github.com/rking/pry-plus). Updated with support for ruby 2.5 (requires Ruby version >= 2.3.0).
 
-Dependent Gems
---------------
+## Installation
+
+In your `Gemfile`:
+
+```ruby
+gem 'kandr-pry-plus'
+```
+
+## Dependent Gems
+
+The following gems will be included in your project as dependencies of `pry-plus`.
 
 <% list.each do |name, info| %>
 ### [<%= name %>](<%= info['url'] %>)
 
 <%=h info['desc'] %>
+
 <% if info['use cases'] %>
   <% info['use cases'].each do |e| %>
 - <%=h e %>
   <% end %>
 <% end %>
-
 <% end %>
