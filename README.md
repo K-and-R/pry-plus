@@ -1,5 +1,7 @@
 # pry-plus
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/323d625b51abf4c780ee/maintainability)](https://codeclimate.com/github/K-and-R/pry-plus/maintainability)
+
 Get up and going with a good set of pry tools right away.
 
 Based on [RKing's pry-plus](https://github.com/rking/pry-plus). Updated with support for ruby 2.5 (requires Ruby version >= 2.3.0).
